@@ -26,3 +26,18 @@ INSERT INTO sklad (kategorie, nazev, cena, pocet) VALUES
 ("Kalhoty", "Kalhoty krátké", 300, 3),
 ("Sukně", "Sukně barevná dlouhá", 500, 9),
 ("Mikina", "Mikina s kapucí", 800, 6);
+
+
+/* dodatečné záznamy, aby lich bylo víc :) */
+INSERT INTO sklad (kategorie, nazev, cena, pocet) VALUES
+("Deštník", "Deštník skládací", 200, 8),
+("Deštník", "Deštník průhledný", 180, 4),
+("Kalhoty", "Kalhoty sportovní", 450, 12),
+("Kalhoty", "Kalhoty s kapsami", 550, 6),
+("Sukně", "Sukně plisovaná krátká", 400, 5),
+("Sukně", "Sukně černá klasická", 350, 8),
+("Mikina", "Mikina bez kapuce", 700, 10),
+("Mikina", "Mikina na zip", 850, 3),
+("Tričko", "Tričko s potiskem", 220, 15),
+("Tričko", "Tričko bílé", 180, 20);
+
