@@ -3,7 +3,7 @@ CREATE TABLE sklad (
   kategorie VARCHAR(30),
   nazev varchar(100) NOT NULL UNIQUE,
   cena int DEFAULT 0,
-  pocet int unsigned NOT NULL DEFAULT 1,
+  pocet int unsigned NOT NULL DEFAULT 0,
 );
 
 INSERT INTO sklad (kategorie, nazev, cena, pocet) VALUES ("Tričko", "Tričko modré", 200, 6);
