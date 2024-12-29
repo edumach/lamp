@@ -1,8 +1,9 @@
-/* Založení databáze eshop */
-CREATE DATABASE IF NOT EXISTS eshop;
+/* ---------------------------------------------
+Založení databáze eshop a nastavení jako aktivní:
 
-/* nastavení aktivní databáze */
+CREATE DATABASE IF NOT EXISTS eshop;
 USE eshop;
+--------------------------------------------- */
 
 /* Vytvoření tabulky sklad */
 CREATE TABLE sklad (
