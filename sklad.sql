@@ -28,7 +28,10 @@ INSERT INTO sklad (kategorie, nazev, cena, pocet) VALUES
 ("Mikina", "Mikina s kapucí", 800, 6);
 
 
-/* dodatečné záznamy, aby lich bylo víc :) */
+/* ----------------------------------
+dodatečné záznamy, aby jich bylo víc
+zkopíruj do schránky a vlož do terminálu
+*/
 INSERT INTO sklad (kategorie, nazev, cena, pocet) VALUES
 ("Deštník", "Deštník skládací", 200, 8),
 ("Deštník", "Deštník průhledný", 180, 4),
