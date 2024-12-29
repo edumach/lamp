@@ -22,4 +22,15 @@ Tabulka je naplněna několika ukázkovými záznamy pro kategorie oblečení a 
 
 1. Tabulku lze použít k procvičování základních SQL operací, jako jsou:
    - Vkládání (`INSERT`),
-   - Aktualizace (`
+   - Aktualizace (`UPDATE`),
+   - Mazání (`DELETE`),
+   - Dotazy (`SELECT`).
+2. Můžete zkoušet i pokročilé operace, jako je filtrování, třídění a agregace dat.
+
+## Jak začít
+
+1. Zkopírujte SQL skript z tohoto projektu.
+2. Vložte jej do svého SQL klienta nebo databázového systému (např. MySQL).
+3. Spusťte skript k vytvoření tabulky a naplnění dat.
+4. Zkoušejte různé SQL příkazy na této tabulce.
+
