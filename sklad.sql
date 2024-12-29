@@ -1,10 +1,8 @@
 /* Založení databáze eshop */
 CREATE DATABASE IF NOT EXISTS eshop;
 
-
 /* nastavení aktivní databáze */
 USE eshop;
-
 
 /* Vytvoření tabulky sklad */
 CREATE TABLE sklad (
@@ -14,7 +12,6 @@ CREATE TABLE sklad (
   cena int DEFAULT 0,
   pocet int unsigned NOT NULL DEFAULT 0
 );
-
 
 /* Dva záznamy */
 INSERT INTO sklad (kategorie, nazev, cena, pocet) VALUES ("Tričko", "Tričko modré", 200, 6);
