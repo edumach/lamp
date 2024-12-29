@@ -6,17 +6,23 @@ Tento projekt obsahuje ukázkovou databázovou tabulku `sklad`, která slouží 
 - **kategorie**: Kategorie, do které položka patří (např. Tričko, Deštník).
 - **nazev**: Název položky (unikátní pro každou položku).
 - **cena**: Cena položky (výchozí hodnota je 0).
-- **pocet**: Počet kusů na skladě (nemůže být záporný, výchozí hodnota je 1).
+- **pocet**: Počet kusů na skladě (nemůže být záporný, výchozí hodnota je 0).
 
 ## Data v tabulce
 
 Tabulka je naplněna několika ukázkovými záznamy pro kategorie oblečení a doplňků, jako jsou trička, deštníky, kalhoty nebo mikiny.
 
 ### Příklad záznamu
-| id | kategorie | název                 | cena | počet |
-|----|-----------|-----------------------|------|-------|
-| 1  | Tričko    | Tričko modré         | 200  | 6     |
-| 2  | Deštník   | Deštník velký        | 300  | 5     |
+| ID | Kategorie | Název                | Cena | Počet |
+|----|-----------|----------------------|------|-------|
+|    | Tričko    | Tričko modré         | 200  | 6     |
+|    | Tričko    | Tričko zelené        | 250  | 10    |
+|    | Deštník   | Deštník velký        | 300  | 5     |
+|    | Deštník   | Deštník malý         | 150  | 2     |
+|    | Kalhoty   | Kalhoty dlouhé       | 600  | 7     |
+|    | Kalhoty   | Kalhoty krátké       | 300  | 3     |
+|    | Sukně     | Sukně barevná dlouhá | 500  | 9     |
+|    | Mikina    | Mikina s kapucí      | 800  | 6     |
 
 ## Použití
 
