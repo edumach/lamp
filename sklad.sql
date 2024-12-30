@@ -5,6 +5,9 @@ CREATE DATABASE IF NOT EXISTS eshop;
 USE eshop;
 --------------------------------------------- */
 
+-- smaž tabulku
+DROP TABLE IF EXISTS sklad;
+
 /* Vytvoření tabulky sklad */
 CREATE TABLE sklad (
   id int PRIMARY KEY AUTO_INCREMENT,
